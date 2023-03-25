@@ -1,0 +1,68 @@
+local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Rayfield/main/source'))()
+getgenv().SecureMode = true
+
+local Window = Rayfield:CreateWindow({
+	Name = "Doors - Doors S+, Thanks for using Doors S+!",
+	LoadingTitle = "Doors - Exploiter Central, ",
+	LoadingSubtitle = "Subscribe To Palmen",
+})
+local Tab = Window:CreateTab("Main GUI's")
+local Section = Tab:CreateSection("Doors Main GUI's")
+local TabUtil = Window:CreateTab("Utility GUI's")
+local SectionUtil = TabUtil:CreateSection("Doors Utility GUI's")
+
+local Button = Tab:CreateButton({
+	Name = "OminousVibes Hub",
+	Callback = function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/OminousVibes-Exploit/Scripts/main/doors/loadstring.lua"))()
+	end,
+})
+local Button = Tab:CreateButton({
+	Name = "Vynixius Hub",
+	Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Doors/Script.lua"))()
+	end,
+})
+local Button = Tab:CreateButton({
+	Name = "Ominoux Hub",
+	Callback = function()
+  loadstring(game:HttpGet(('https://pastebin.com/raw/9QPGnLx6'),true))()
+	end,
+})
+local Button = Tab:CreateButton({
+	Name = "Neverlose Hub",
+	Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaQLeak/neverlose.xyz/main/Doors.lua"))()
+	end,
+})
+local Button = Tab:CreateButton({
+	Name = "Darkrai Hub (Android Only)",
+	Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkrai-X/main/Games/Doors"))()
+	end,
+})
+local Button = Tab:CreateButton({
+	Name = "Crimson Hub (Key Required)",
+	Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/toosiwhip/statue/main/crimsonhub-statue.lua"))()
+	end,
+})
+local Button = TabUtil:CreateButton({
+	Name = "Crucifix Giver",
+	Callback = function()
+	local Item = game:GetObjects("rbxassetid://11583101826")[1]
+  Item.Parent = game.Players.LocalPlayer.Backpack
+	end,
+})
+local Button = TabUtil:CreateButton({
+	Name = "Entity Spawner, Will Close This GUI",
+	Callback = function()
+  loadstring(game:HttpGet('https://raw.githubusercontent.com/plamen6789/UtilitiesHub/main/UtilitiesGUI'))()
+	end,
+})
+local Button = TabUtil:CreateButton({
+	Name = "Experimental Feature",
+	Callback = function()
+  loadstring(game:HttpGet('https://raw.githubusercontent.com/Sogrammer89/IDK/main/Crucifix'))()
+	end,
+})
