@@ -50,19 +50,12 @@ local Button = Tab:CreateButton({
 local Button = TabUtil:CreateButton({
 	Name = "Crucifix Giver",
 	Callback = function()
-	local Item = game:GetObjects("rbxassetid://11583101826")[1]
-  Item.Parent = game.Players.LocalPlayer.Backpack
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/Sogrammer89/IDK/main/Crucifix'))()
 	end,
 })
 local Button = TabUtil:CreateButton({
 	Name = "Entity Spawner, Will Close This GUI",
 	Callback = function()
   loadstring(game:HttpGet('https://raw.githubusercontent.com/plamen6789/UtilitiesHub/main/UtilitiesGUI'))()
-	end,
-})
-local Button = TabUtil:CreateButton({
-	Name = "Experimental Feature",
-	Callback = function()
-  loadstring(game:HttpGet('https://raw.githubusercontent.com/Sogrammer89/IDK/main/Crucifix'))()
 	end,
 })
