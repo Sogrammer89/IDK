@@ -1,4 +1,4 @@
-local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Rayfield/main/source'))()
+local Rayfield = loadstring(game:HttpGet("https://raw.githubusercontent.com/shlexware/Rayfield/main/source"))()
 getgenv().SecureMode = true
 
 local Window = Rayfield:CreateWindow({
@@ -26,7 +26,7 @@ local Button = Tab:CreateButton({
 local Button = Tab:CreateButton({
 	Name = "Ominoux Hub",
 	Callback = function()
-  loadstring(game:HttpGet(('https://pastebin.com/raw/9QPGnLx6'),true))()
+  loadstring(game:HttpGet(("https://pastebin.com/raw/9QPGnLx6"),true))()
 	end,
 })
 local Button = Tab:CreateButton({
@@ -50,12 +50,12 @@ local Button = Tab:CreateButton({
 local Button = TabUtil:CreateButton({
 	Name = "Crucifix Giver",
 	Callback = function()
-	loadstring(game:HttpGet('https://raw.githubusercontent.com/Sogrammer89/IDK/main/Crucifix'))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Sogrammer89/IDK/main/Crucifix"))()
 	end,
 })
 local Button = TabUtil:CreateButton({
 	Name = "Entity Spawner, Will Close This GUI",
 	Callback = function()
-  loadstring(game:HttpGet('https://raw.githubusercontent.com/plamen6789/UtilitiesHub/main/UtilitiesGUI'))()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/plamen6789/UtilitiesHub/main/UtilitiesGUI"))()
 	end,
 })
